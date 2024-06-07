@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevWeb2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>|Prova B2 de Construção de Software para Web (2° Bimestre) - Felipe Vervier|</h2>
+<div class="main">
+    <div class="form">
+        <form id="form">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="name" name="nome"><br>
+
+            <label for="matricula">Matrícula:</label><br>
+            <input type="text" id="mat" name="matricula"><br>
+
+            <label for="nota1">Nota 1:</label><br>
+            <input type="number" id="n1" name="nota1" step="0.1" min="0" max="10"><br>
+
+            <label for="nota2">Nota 2:</label><br>
+            <input type="number" id="n2" name="nota2" step="0.1" min="0" max="10"><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <div class="table">
+        <table id="tabeladados">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Matrícula</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Média</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

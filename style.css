@@ -1,0 +1,55 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form, .table {
+    flex: 1;
+    padding: 20px;
+}
+
+form {
+    margin-right: 10%;
+    width: 100%;
+    background-color: #cacaca;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+table {
+    width: 180%;
+    background-color: #9ecdff;
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 5px solid rgb(54, 54, 54);
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.aprovado {
+    background-color: rgba(172, 255, 47, 0.39);
+}
+
+.reprovado {
+    background-color: rgba(255, 0, 0, 0.301);
+}
